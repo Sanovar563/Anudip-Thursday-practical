@@ -1,6 +1,6 @@
 //A program to create class rectangle and create method to print length and breadth create constructor to initialize them and print  area and perimeter of rectangle.
 
-public class Rectangle
+class Rectangle
 {
 int length, breadth,  area=0, perimeter=0;
 

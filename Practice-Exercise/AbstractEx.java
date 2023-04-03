@@ -1,8 +1,8 @@
 //A program to create abstract class shape with abstract method  CalculateArea and implement with subclass circle and rectangle
 
-abstract Shape					//interface
+abstract class Shape					//interface
 {
-	abstract void CalculateArea()	;	//abstract method
+	abstract void CalculateArea();	//abstract method
 }
 	 class Circle implements Shape	 
 	{

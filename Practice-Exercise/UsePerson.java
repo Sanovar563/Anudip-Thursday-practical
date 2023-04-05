@@ -6,19 +6,19 @@
  
  
  interface Person					//interface
- {
+{
 	public void Speak();			//abstract method
 }
 
 class Student implements Person		//class to implement abstract method Speak
-{
-String speak;
-public void Speak()
-{
-this.speak="Answering Questions";
-System.out.println("The students are :"+ speak);
-}
-}
+	{
+		String speak;
+		public void Speak()
+		{
+			this.speak="Answering Questions";
+			System.out.println("The students are :"+ speak);
+		}
+	}
 class Teacher implements Person		//class to implement abstract method Speak
 {
 String speak;
@@ -26,16 +26,16 @@ String speak;
 	{
 		this.speak="Asking questions";
 		System.out.println(" The Teacher is :" + speak);
-		}
-		}
+	}
+}
 		
 		class UsePerson
 		{
-		public static void main(String args[])	//main method
-		{
-		Student s=new Student();		//object creating
-		Teacher t=new Teacher();
-		s.Speak();					//invokin/calling methods
-		t.Speak();
-		}
+			public static void main(String args[])	//main method
+			{
+				Student s=new Student();		//object creating
+				Teacher t=new Teacher();
+				s.Speak();					//invokin/calling methods
+				t.Speak();
+			}
 		}
